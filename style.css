@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     padding: 16px 0;
     background-color: #FFFFFF;
@@ -46,7 +46,7 @@ body {
 /* hero section css start */
 .hero-content{
     text-align: center;
-    width: 90%;
+    width: 95%;
     height: 379px;
     align-items: center;
 }
@@ -107,7 +107,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.hero-text-02 h2{
+.hero-text-02 h1{
     font-size: 72px;
     font-weight: 700;
    line-height: 84px;
@@ -170,3 +170,71 @@ body {
     height: 20px;
 }
 /* hero section css end */
+
+ /* notes section css starts */
+
+ .note{
+    padding: 80px 0 64px 0;
+ }
+ .note h2{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+ }
+ .note p{
+    font-size: 16px;
+    line-height: 24px;
+     font-weight: 400;
+    text-align: center;
+    margin-bottom: 44px;
+    color: #627382;
+ }
+
+ .box-container{
+    width: 95%;
+    margin: 0 auto;background-color: #fbfbfb;
+    display: flex;
+    justify-content:space-between;
+    gap: 24px;
+ }
+ .note-box{
+    width: 322px;
+    height: 300px;
+      padding: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+ }
+ .note-box .note-image{
+    display: flex;
+    justify-content: center;
+ }
+
+ .note-box .box-01{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #f95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+ }
+
+    .note-box h3{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 16px;
+         text-align: center;
+    }
+    .note-box p{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #627382;
+    }
