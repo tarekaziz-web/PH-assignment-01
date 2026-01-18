@@ -174,7 +174,7 @@ body {
  /* notes section css starts */
 
  .note{
-    padding: 80px 0 64px 0;
+    padding: 80px 0 60px 0;
  }
  .note h2{
     font-size: 48px;
@@ -190,7 +190,6 @@ body {
     margin-bottom: 44px;
     color: #627382;
  }
-
  .box-container{
     width: 95%;
     margin: 0 auto;background-color: #fbfbfb;
@@ -213,7 +212,6 @@ body {
     display: flex;
     justify-content: center;
  }
-
  .note-box .box-01{
     width: 60px;
     height: 60px;
@@ -224,7 +222,6 @@ body {
     align-items: center;
     margin-bottom: 16px;
  }
-
     .note-box h3{
         font-size: 24px;
         font-weight: 700;
@@ -238,3 +235,72 @@ body {
         text-align: center;
         color: #627382;
     }
+    /* notes section css ends */
+        /* Solution section css starts  */
+        .Solution{
+            width: 95%;
+            margin: 0 auto;
+            display: flex;  
+            padding: 60px 0 60px 0;   
+        }
+        .Solution .Solution-image {
+            width: 600px;
+            height: 600px;
+        }
+        .Solution-content{
+           
+            margin-left: 60px;
+            margin-top: 120px;
+        }
+.Solution-content .p-01{
+    font-size: 16px;
+    font-weight: 600;
+    color: #30b868;
+    margin-bottom: 16px;
+    font-style: medium;
+}
+.Solution-content h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    font-style: bold;
+}
+.Solution-content .p-01{
+    font-size: 16px;
+    line-height: 24px;
+    font-style: medium;
+    font-weight: 500;
+    color: #30b868;
+    margin-bottom: 16px;
+}
+.Solution-content h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    font-style: bold;
+   
+}
+.Solution-content h2 p{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    font-style: bold;   
+}
+.Solution-content .p-02{
+    font-size: 16px;
+    line-height: 24px;
+    font-style: regular;
+    font-weight: 400;
+    color: #627382;
+    width: 490px;
+    margin-bottom: 40px;
+}
+.Solution-content ul li{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+ 
+}
+
+        /* Solution section css ends  */
