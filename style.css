@@ -302,5 +302,39 @@ body {
     margin-bottom: 16px;
  
 }
+  /* Solution section css ends  */
 
-        /* Solution section css ends  */
+  /* think section css start   */
+.think{
+     width: 95%;
+            margin: 60px auto 120px auto;
+            text-align: center; 
+            padding: 80px 0 80px 0;
+            background-color: #f7f6f2; 
+}
+.think h2{
+    font-size: 48px;
+    font-weight: 700;    
+    margin-bottom: 16px;
+}
+.think .p-03{
+    font-size: 16px;
+    line-height: 24px;
+    font-style: regular;
+    font-weight: 400;
+    color: #627382;
+    width: 580px;
+    margin: 0 auto;
+    margin-bottom: 40px
+}
+.think button{
+   margin: 0 auto;
+   margin-bottom: 16px;
+}
+.think .p-04{
+    font-size: 16px;
+    line-height: 24px;
+    font-style: regular;
+    font-weight: 400;
+    color: #627382;
+}
